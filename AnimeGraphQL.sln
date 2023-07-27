@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnimeGraphQL.WebAPI", "AnimeGraphQL.WebAPI\AnimeGraphQL.WebAPI.csproj", "{47DC8890-81C6-4F6B-A029-79728A5E4150}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{41898170-5C34-46FC-85A1-2DE85D32BA03}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{F632E764-7294-4915-ACE3-8605BC3BF5FE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{542BC863-4CFD-454B-8A0F-2FFB505EA98E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnimeGraphQL.Application", "AnimeGraphQL.Application\AnimeGraphQL.Application.csproj", "{D4C83585-7345-4CAE-A130-F3F67AB237C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnimeGraphQL.Domain", "AnimeGraphQL.Domain\AnimeGraphQL.Domain.csproj", "{9F5E556C-1A88-4AB2-AFB1-066063926635}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnimeGraphQL.Persistence", "AnimeGraphQL.Persistence\AnimeGraphQL.Persistence.csproj", "{35EBA0D3-3E19-4721-9F1E-BB55B3146E4D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{47DC8890-81C6-4F6B-A029-79728A5E4150}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47DC8890-81C6-4F6B-A029-79728A5E4150}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47DC8890-81C6-4F6B-A029-79728A5E4150}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47DC8890-81C6-4F6B-A029-79728A5E4150}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4C83585-7345-4CAE-A130-F3F67AB237C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4C83585-7345-4CAE-A130-F3F67AB237C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4C83585-7345-4CAE-A130-F3F67AB237C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4C83585-7345-4CAE-A130-F3F67AB237C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F5E556C-1A88-4AB2-AFB1-066063926635}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F5E556C-1A88-4AB2-AFB1-066063926635}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F5E556C-1A88-4AB2-AFB1-066063926635}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F5E556C-1A88-4AB2-AFB1-066063926635}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35EBA0D3-3E19-4721-9F1E-BB55B3146E4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35EBA0D3-3E19-4721-9F1E-BB55B3146E4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35EBA0D3-3E19-4721-9F1E-BB55B3146E4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35EBA0D3-3E19-4721-9F1E-BB55B3146E4D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{47DC8890-81C6-4F6B-A029-79728A5E4150} = {F632E764-7294-4915-ACE3-8605BC3BF5FE}
+		{D4C83585-7345-4CAE-A130-F3F67AB237C0} = {41898170-5C34-46FC-85A1-2DE85D32BA03}
+		{9F5E556C-1A88-4AB2-AFB1-066063926635} = {41898170-5C34-46FC-85A1-2DE85D32BA03}
+		{35EBA0D3-3E19-4721-9F1E-BB55B3146E4D} = {542BC863-4CFD-454B-8A0F-2FFB505EA98E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AB599C6A-8C75-4FFF-B997-DB5983F1DC12}
+	EndGlobalSection
+EndGlobal
