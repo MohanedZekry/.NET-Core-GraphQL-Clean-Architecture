@@ -14,7 +14,6 @@ namespace AnimeGraphQL.Persistence
             var connection = configuration.GetConnectionString("AnimeContext");
             services.AddDbContext<AnimeContext>(options => options.UseSqlServer(connection));
             services.AddScoped<IUnitOfWork, UnitOfWork>();
-            //services.AddScoped<ITestTakerRepository, TestTakerRepository>();
         }
     }
 }
