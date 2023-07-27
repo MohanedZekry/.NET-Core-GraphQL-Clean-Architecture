@@ -1,5 +1,15 @@
 # .NET Core GraphQL with Clean Architecture
 
+This project demonstrates how to build a .NET Core web application using GraphQL as the API layer and adhering to Clean Architecture principles. It showcases how to structure the solution with clear separation of concerns, allowing for independent development and testing of the application's business logic, data access layer, and GraphQL API.
+
+
+## Table of Contents
+- [Key-Features](#keyfeatures)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+
 ## Key Features
 
 - **GraphQL API:** Utilize the power of GraphQL to efficiently query and mutate data from a single endpoint, enabling clients to request precisely the data they need.
@@ -20,11 +30,6 @@
 
 - **MIT License:** Released under the permissive MIT License, granting users the freedom to use, modify, and distribute the project with minimal restrictions.
 
-## Table of Contents
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Installation
 
