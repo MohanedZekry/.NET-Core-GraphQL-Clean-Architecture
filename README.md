@@ -28,7 +28,7 @@ Make sure you have the following installed:
 2. Run the following command to launch the application:
 
 
-3. The GraphQL API will be available at `https://localhost:5001/graphql` (or `http://localhost:5000/graphql`).
+3. The GraphQL API will be available at `https://localhost:5001/animegraphql` (or `http://localhost:5000/animegraphql`).
 
 ### Interacting with the GraphQL API
 
