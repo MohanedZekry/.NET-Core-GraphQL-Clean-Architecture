@@ -1,11 +1,24 @@
 # .NET Core GraphQL with Clean Architecture
 
-### Key Features:
+## Key Features
 
-- **Clean Architecture: The project follows Clean Architecture principles, ensuring a clear separation of the application's core business logic, infrastructure, and presentation layers.
-- **GraphQL API: Utilizing GraphQL as the API layer allows for more flexible and efficient data querying, enabling clients to request precisely the data they need.
-- **Entity Framework Core: The project uses Entity Framework Core as the ORM for data access, providing a reliable and scalable data access solution.
-- **Dependency Injection: Leveraging the built-in Dependency Injection in .NET Core for loose coupling and easier testing.
+- **GraphQL API:** Utilize the power of GraphQL to efficiently query and mutate data from a single endpoint, enabling clients to request precisely the data they need.
+
+- **Clean Architecture:** The project follows Clean Architecture principles, ensuring a clear separation of concerns between the business logic, data access, and presentation layers.
+
+- **Entity Framework Core:** Leverage the capabilities of Entity Framework Core, a robust and flexible ORM, for seamless data access and database management.
+
+- **Dependency Injection:** Benefit from the built-in Dependency Injection feature in .NET Core for loose coupling and easier testing of components.
+
+- **Unit Testing:** The project includes a comprehensive suite of unit tests for the core business logic, ensuring the reliability and stability of the application.
+
+- **Scalable and Maintainable:** Designed with scalability and maintainability in mind, making it suitable for projects of varying sizes and complexities.
+
+- **Easy Setup:** Quick and straightforward installation process, allowing developers to get up and running with the project in no time.
+
+- **Contributor Friendly:** Welcoming contributions from the community, including bug reports, feature requests, and code contributions. See [Contributing](#contributing) for guidelines.
+
+- **MIT License:** Released under the permissive MIT License, granting users the freedom to use, modify, and distribute the project with minimal restrictions.
 
 ## Table of Contents
 - [Installation](#installation)
