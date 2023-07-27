@@ -4,7 +4,7 @@ This project demonstrates how to build a .NET Core web application using GraphQL
 
 
 ## Table of Contents
-- [Key-Features](#keyfeatures)
+- [Key Features](#keyfeatures)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
