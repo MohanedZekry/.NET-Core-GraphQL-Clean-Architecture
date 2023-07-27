@@ -1,6 +1,11 @@
 # .NET Core GraphQL with Clean Architecture
 
-[Short Description]
+### Key Features:
+
+Clean Architecture: The project follows Clean Architecture principles, ensuring a clear separation of the application's core business logic, infrastructure, and presentation layers.
+GraphQL API: Utilizing GraphQL as the API layer allows for more flexible and efficient data querying, enabling clients to request precisely the data they need.
+Entity Framework Core: The project uses Entity Framework Core as the ORM for data access, providing a reliable and scalable data access solution.
+Dependency Injection: Leveraging the built-in Dependency Injection in .NET Core for loose coupling and easier testing.
 
 ## Table of Contents
 - [Installation](#installation)
